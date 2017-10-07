@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Countdown</title>
+	<script type="text/javascript">
+		
+		function countdown(num) {
+			var arr = [];
+			var num = num;
+			while (num >= 0) {
+				arr.push(num);
+				num = num - 1;
+			}
+			console.log(arr.length);
+			return arr;
+		}
+		console.log(countdown(8));
+
+	</script>
+</head>
+<body>
+
+</body>
+</html>
+
+<!-- challenge: Create a function that accepts a number as an input. Return a new array that counts down by one, from the number down to 0. How long is this array? -->

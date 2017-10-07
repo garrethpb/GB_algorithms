@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Build Array from Odd Numbers in Range</title>
+	<script type="text/javascript">
+		
+		function oddNumbers(start, stop) {
+			var arr = [];
+			for (var i = start; i < stop; i++) {
+				if (i % 2 !== 0) {
+					arr.push(i);
+				}
+			}
+			return arr;
+		}
+		console.log(oddNumbers(1, 500));
+
+
+	</script>
+</head>
+<body>
+
+</body>
+</html>
