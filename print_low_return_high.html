@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Print Low, Returh High</title>
+	<script type="text/javascript">
+
+		var arr1 = [1,2,3,4,5,6];
+		
+		function printLowReturnHigh(arr) {
+			console.log('Printed (low) value: ' + Math.min(...arr));
+			return Math.max(...arr);
+		}
+
+		var returnedVal = printLowReturnHigh(arr1);
+		console.log('Returned (high) value: ', returnedVal);
+
+
+
+
+
+
+
+	</script>
+</head>
+<body>
+
+</body>
+</html>
+
+<!-- Challenge: Create a function that accepts an array of numbers that prints the lowest value in the array and returns the highest. -->
