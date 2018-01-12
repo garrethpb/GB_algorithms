@@ -1,7 +1,8 @@
 def fahrenheit_to_celsius(fTemp):
-	return (fTemp - 32) * .5556
+	cTemp = (fTemp - 32) * .5556
+	print cTemp
 
-print fahrenheit_to_celsius(100)
+fahrenheit_to_celsius(100)
 
 
 
